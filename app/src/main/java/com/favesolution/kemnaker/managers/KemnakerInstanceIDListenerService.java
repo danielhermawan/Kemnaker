@@ -10,6 +10,5 @@ public class KemnakerInstanceIDListenerService extends InstanceIDListenerService
     public void onTokenRefresh() {
         Intent intent = new Intent(this, RegistrationIntentService.class);
         startService(intent);
-        //// TODO: 12/9/2015 Refresh token delete old token from server
     }
 }

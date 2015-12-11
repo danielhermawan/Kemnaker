@@ -2,6 +2,7 @@ package com.favesolution.kemnaker.managers;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.app.TaskStackBuilder;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -30,7 +31,11 @@ public class KemnakerGcmListenerService extends GcmListenerService {
                 .setContentText(body)
                 .setAutoCancel(true);
         Intent resultIntent = new Intent(this, MainActivity.class);
-        PendingIntent pi = PendingIntent.getActivity(context,REQUEST_NOTIFICATION,resultIntent,0);
+        TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
+        stackBuilder.addParentStack(MainActivity.class);
+        stackBuilder.addNextIntent(resultIntent);
+
+        PendingIntent pi = stackBuilder.getPendingIntent(0,PendingIntent.FLAG_UPDATE_CURRENT);
         mBuilder.setContentIntent(pi);
         mNotificationManager.notify(MESSAGE_NOTIFICATION_ID, mBuilder.build());
 
