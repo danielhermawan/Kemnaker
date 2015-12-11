@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Kemnaker</string>
+    <string name="title_activity_main">Beranda</string>
+
+    <string name="login.logo.desc">Logo Aplikasi</string>
+    <string name="login.title">Bina Standardisasi Kompetisi dan Pelatihan Kerja</string>
+    <string name="login.label.user">nama user</string>
+    <string name="login.form.username.hint">Username</string>
+    <string name="login.label.password">password</string>
+    <string name="login.form.username.password">Password</string>
+    <string name="login.button.login">login</string>
+    <string name="beranda">Beranda</string>
+    <string name="logout">logout</string>
+    <string name="home.name.user">Halo, %s</string>
+    <string name="home.peran">%s Bina Standardisasi Kompetisi dan Pelatihan Kerja</string>
+    <string name="home.menu.dokument">Dokumen Masuk</string>
+    <string name="home.menu.arsip">Arsip</string>
+    <string name="detail.kategori">Kategori Dokumen</string>
+    <string name="detail.no">No. Agenda</string>
+    <string name="detail.tanggal.terima">tanggal terima</string>
+    <string name="detail.asal">asal surat</string>
+    <string name="detail.nomor_tanggal">Nomor, Tanggal</string>
+    <string name="detail.perihal">Perihal</string>
+    <string name="detail.lampiran">Lampiran</string>
+    <string name="detail.penerusan">penerusan</string>
+    <string name="detail.diteruskan">Diteruskan Kepada</string>
+    <string name="detail.lajur">Lajur Disposisi</string>
+    <string name="detail.catatan">Catatan</string>
+    <string name="detail.teruskan">Teruskan</string>
+    <string name="detail.edit.catatan.hint">Berikan catatan tambahan disini</string>
+    <string name="password_error">Password tidak boleh kosong</string>
+    <string name="username_error">Username tidak boleh kosong</string>
+    <string name="network_error">Koneksi internet tidak stabil</string>
+    <string name="login_Success">Login Sukses</string>
+    <string name="logout_error">Logout tidak berhasil</string>
+    <string name="list.placeholder.empty.document">Belum ada dokumen yang masuk</string>
+    <string name="list.placeholder.empty.arsip">Belum ada arsip yang masuk</string>
+    <string name="detail.button.arsip">Masukkan Arsip</string>
+    <string name="detail.lajurdisposisi">Lajur Disposisi</string>
+</resources>

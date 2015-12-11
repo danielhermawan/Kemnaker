@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/image_lampiran"
+    android:orientation="vertical"
+    android:layout_width="@dimen/size_width_lampiran"
+    android:layout_height="@dimen/size_height_lampiran"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/margin_small"
+    android:layout_marginStart="@dimen/margin_small"
+    android:contentDescription="@string/app_name"
+    android:padding="@dimen/horizontal_margin_medium"
+    tools:src="@drawable/bitmap_plain_grey_background"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipe_dokumen">
+        <item>SEMUA</item>
+        <item>RAHASIA</item>
+        <item>PENTING SEGERA</item>
+        <item>BIASA</item>
+    </string-array>
+</resources>

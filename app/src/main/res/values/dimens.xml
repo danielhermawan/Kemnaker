@@ -1,0 +1,23 @@
+<resources>
+    <dimen name="horizontal_margin_medium">16dp</dimen>
+    <dimen name="vertical_margin_medium">16dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_super_small">4dp</dimen>
+    <dimen name="margin_very_small">8dp</dimen>
+    <dimen name="margin_very_large">32dp</dimen>
+    <dimen name="very_large_text_size">24sp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="radius_round">25dp</dimen>
+    <dimen name="icon_list_menu">40dp</dimen>
+    <dimen name="spinner_height">30dp</dimen>
+
+    <dimen name="size_width_lampiran">300dp</dimen>
+    <dimen name="size_height_lampiran">300dp</dimen>
+    <dimen name="logo_size">160dp</dimen>
+    <dimen name="logo_navigation_size">210dp</dimen>
+    <dimen name="margin_input_form_login">40dp</dimen>
+    <dimen name="navigation_view">270dp</dimen>
+</resources>

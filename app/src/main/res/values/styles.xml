@@ -1,0 +1,111 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="accent_button">
+        <item name="android:background">@drawable/selector_accent_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="button_accent_white">
+        <item name="android:background">@drawable/selector_accent_button_white</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="text_medium_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="text_small_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="text_large_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="text_small_primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="text_medium_black">
+        <item name="android:textColor">@color/lightBlack</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="text_large_black">
+        <item name="android:textColor">@color/lightBlack</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="panel_primary">
+        <item name="android:padding">@dimen/horizontal_margin_medium</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="text_large_white.panel">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:padding">@dimen/horizontal_margin_medium</item>
+        <item name="android:paddingLeft">@dimen/margin_very_large</item>
+    </style>
+    <style name="list_menu">
+        <item name="android:background">@drawable/selector_background_item</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">@dimen/margin_large</item>
+    </style>
+
+    <style name="toolbar_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="login_title_style">
+        <item name="android:background">@color/gray</item>
+        <item name="android:padding">@dimen/horizontal_margin_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="login_label">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="login_edit">
+        <item name="android:background">@drawable/shape_edit_login</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="primary_badge">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shape_primary_badge</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="text_large_black.detail_subtitle">
+        <item name="android:background">@color/gray_10</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/margin_very_small</item>
+        <item name="android:paddingLeft">@dimen/margin_very_large</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>
